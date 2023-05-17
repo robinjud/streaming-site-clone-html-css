@@ -28,29 +28,61 @@ h1 {
 }
 
 .header-menu { 
-  display: flex;
-  list-style: none;
+    display: flex;
+    list-style: none;
 }
 
 .header-menu > .header-menu-item {
-margin: 0 0.5rem;
+    margin: 0 0.5rem;
 }
+
+/*movie list*/
+.movie-list-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.movie-list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    overflow: hidden;
+}
+
+.movie-item {margin: 0.5rem;
+
+}
+
+.movie-button {
+    position:absolute;
+}
+
+.move-button.left {
+    left: 1rem;
+}
+
+.move-button.right {
+    right: 1rem;
+}
+
+/* Media queries */
 
 .display-medium-and-below {
     display: none;
 }
 
 @media screen  and (max-width: 992px) {
-    .display-medium-and-below {
-        display: inline-block;
+.display-medium-and-below {
+    display: inline-block;
     }
-    .search-form {
-        display: none;
+.search-form {
+    display: none;
     }
 }
    
   @media screen and (max-width: 768px)  {
-    .main-header  {
-        flex-direction: column;
+ .main-header  {
+    flex-direction: column;
     }  
   }
