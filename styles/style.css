@@ -24,19 +24,27 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color:blue;
+    color:red;
 }
 
 .header-menu { 
     display: flex;
     list-style: none;
+    
 }
 
 .header-menu > .header-menu-item {
     margin: 0 0.5rem;
+    color:red;
 }
 
 /*movie list*/
+.movie-list-title {
+    margin-left: 1rem;
+    margin-top: 1rem;
+
+}
+
 .movie-list-container {
     display: flex;
     justify-content: space-evenly;
@@ -54,16 +62,52 @@ h1 {
 
 }
 
-.movie-button {
+.move-button {
     position:absolute;
+    border-radius: 50%;
+    border: none;
+    padding: 1rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
 }
+
+.move-button:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 
 .move-button.left {
     left: 1rem;
+    
 }
 
 .move-button.right {
     right: 1rem;
+   
+}
+.arrow-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    box-sizing: content-box;
+
+}
+
+/* Footer styles*/
+.back-to-top-button {
+    width: 100%;
+    border: none;
+    height: 4rem;
+}
+
+.footer-menue {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menue-item {
+    margin: 1rem 2rem;
+
 }
 
 /* Media queries */
