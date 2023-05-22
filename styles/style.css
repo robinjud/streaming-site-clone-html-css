@@ -11,6 +11,8 @@ html {
 /* Generic Constraints */
 body {
     min-width: 400px;
+    background-color: black;
+    color: whitesmoke;
 }
 
 /* header styling */
@@ -24,7 +26,15 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color:red;
+    color:white;
+}
+
+.search-submit {
+    background-color: darkorange;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    border-color:darkorange;
+  
 }
 
 .header-menu { 
@@ -35,8 +45,26 @@ h1 {
 
 .header-menu > .header-menu-item {
     margin: 0 0.5rem;
-    color:red;
+    
 }
+
+.header-menue-link {
+    color:white;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+}
+.header-menue-link:hover {
+    color: deepskyblue;
+}
+
+
+
+ /*Carrousel */
+ .carousel-item .banner-thumbnail {
+    border-radius: 1rem;
+ }
+
 
 /*movie list*/
 .movie-list-title {
@@ -56,6 +84,10 @@ h1 {
     list-style: none;
     display: flex;
     overflow: hidden;
+}
+
+.movie-list .movie-tn-small {
+    height: 200px;
 }
 
 .movie-item {margin: 0.5rem;
@@ -93,10 +125,20 @@ h1 {
 }
 
 /* Footer styles*/
-.back-to-top-button {
-    width: 100%;
-    border: none;
+
+.back-to-top-container {
+    display: flex;
+    justify-content: center;
+    align-items: middle;
     height: 4rem;
+    
+}
+
+.back-to-top {
+   color: whitesmoke;
+   text-decoration: none;
+
+
 }
 
 .footer-menue {
@@ -109,6 +151,17 @@ h1 {
     margin: 1rem 2rem;
 
 }
+
+.footer-menue-link {
+    color: white;
+}
+
+.footer-menue-link:hover {
+    color: deepskyblue;
+    outline: 1px solid white;
+    text-decoration: none;
+}
+    
 
 /* Media queries */
 
