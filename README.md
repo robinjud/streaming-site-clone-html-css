@@ -5,17 +5,17 @@ This is a clone of a simple streaming platform like Amazon Prime, Netflix,HBO Ma
 ## user stories
 
 ...
-AS A a Returning Customer (Who?)
-I WANT TO add more favority videos to my watchlist (What?)
-SO THAT I can watch them in the future (Why?)
+AS a Returning Customer
+I want to add more favority videos to my watchlist
+SO that I can watch them in the future
 
-AS A  long  time Value Customer (Who?)
-I WANT TO add more recent movies to my watchlist (What?)
-SO THAT I can more movie options (Why?)
+AS a long time Value Customer
+I want to add more recent movies to my watchlist
+SO that I can more movie options
 
-AS A New Customer (Who?)
-I Want to have the option to see movie reviews (What?)
-SO THAT I am able to make a better movie choice (Why?)
+AS a New Customer
+I Want to have the option to see movie reviews
+SO that I am able to make a better movie choice
 
 ## Atrribution
 

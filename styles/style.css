@@ -27,6 +27,18 @@ h1 {
   justify-content: space-between;
   align-items: center;
   color: white;
+  padding-left: 2px;
+  padding-right: 20px;
+}
+.input-box {
+  margin: 100px auto;
+  width: 200px;
+  height: 28px;
+  border-color: darkorange;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  text-decoration: none;
+  text-align: center;
 }
 
 .search-submit {
@@ -34,6 +46,7 @@ h1 {
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
   border-color: darkorange;
+  text-decoration: none;
 }
 
 .header-menu {
@@ -41,7 +54,7 @@ h1 {
   list-style: none;
 }
 
-.header-menu > .header-menu-item {
+.header-menu-item {
   margin: 0 0.5rem;
 }
 
@@ -79,6 +92,7 @@ h1 {
 
 .movie-list .movie-tn-small {
   height: 200px;
+  border-radius: 0.5rem;
 }
 
 .movie-item {
@@ -125,7 +139,7 @@ h1 {
 }
 
 .back-to-top:hover {
-    color: deepskyblue;
+  color: deepskyblue;
 }
 
 .footer-menue {
@@ -140,11 +154,11 @@ h1 {
 
 .footer-menue-link {
   color: white;
-  text-decoration:none ;
+  text-decoration: none;
 }
 
 .footer-menue-link:hover {
-  color:deepskyblue;
+  color: deepskyblue;
 }
 
 /* Media queries */
